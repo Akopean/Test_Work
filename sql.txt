@@ -8,3 +8,4 @@ CREATE TABLE `user` (
 `user_avatar` varchar(30) NOT NULL default 'default.jpg',
 PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+ 
