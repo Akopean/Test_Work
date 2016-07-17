@@ -1,0 +1,83 @@
+@import "normalize.scss";
+@import "foundation.scss";
+@import "fonts";
+
+/* Typography */
+a,
+button,
+input[type="submit"],
+input[type="button"],
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition-duration: .2s;
+	transition-timing-function: ease-in;
+	transition-property: color, border-color, background-color, opacity;
+}
+
+.tabs-pad {
+	padding-top: 50px;
+}
+
+.tabs-icon {
+	padding-bottom: 5px;
+}
+
+.file-upload {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.file-upload input.file-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+small.success {
+    display: block;
+    font-size: 0.75rem;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    margin-top: -1px;
+    padding: 0.375rem 0.5625rem 0.5625rem;
+    background: #6ECB63;
+    color: #FFFFFF;
+}
+.switch-on {
+  position: absolute;
+  left: -55px;
+  top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 9px;
+}
+
+.switch-off {
+  position: absolute;
+  left: -25px;
+  top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 9px;
+}
+.switch-align {
+  text-align: right;
+}
+
+.avatar {
+  width : 230px;
+  height: 300px;
+}

@@ -1,0 +1,10 @@
+CREATE TABLE `user` (
+`user_id` int(11) unsigned NOT NULL auto_increment,
+`user_login` varchar(25) NOT NULL,
+`user_name` varchar(25) NOT NULL,
+`user_gender` varchar(5) NOT NULL,
+`user_password` varchar(30) NOT NULL,
+`user_email` varchar(35) NOT NULL,
+`user_avatar` varchar(30) NOT NULL default 'default.jpg',
+PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
